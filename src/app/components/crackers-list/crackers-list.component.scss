@@ -1,0 +1,132 @@
+.padding {
+    padding: 0 10px 0 10px;
+    font-weight: 700;
+    font-size: larger;
+}
+
+.card {
+    margin-bottom: 10px;
+    background-color: #cdeaeb;
+    color: black;
+    padding: 20px;
+    // width: 100%;
+    font-size: xx-large;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px 10px 0 10px;
+}
+
+.body {
+    margin: 10px 10px 0 10px;
+    overflow-x: auto;
+
+}
+
+.table {
+    border-radius: 10% !important;
+}
+
+th,
+td {
+    text-align: center;
+}
+
+.titletd {
+    font-size: x-large;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.img {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 700px;
+}
+.img1{
+    width: 150px;
+    // height: 50%;
+}
+
+@media screen and (max-width: 425px) {
+    .img {
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 170px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .img {
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 250px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .img {
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 500px;
+    }
+}
+
+.heading {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 10px;
+    background: -webkit-linear-gradient(#e8610d, #e9735f, #b512ce);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.card1 {
+    background-color: #cdeaeb;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    // max-width: 500px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 32px;
+    color: #333;
+}
+h6{
+    font-size: 36px;
+    color: black;
+}
+.highlight {
+    color: #007bff;
+}
+
+.description {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #666;
+    line-height: 1.5;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.contact-info a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
